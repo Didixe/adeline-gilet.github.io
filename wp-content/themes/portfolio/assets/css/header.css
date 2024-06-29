@@ -1,0 +1,39 @@
+img.custom-logo {
+    border-radius: 50%;
+    max-height: 4rem;
+}
+
+p.site-title {
+    font-size: medium !important;
+}
+
+@media (min-width: 950px) {
+    img.custom-logo {
+        max-height: 7rem;
+    }
+    p.site-title {
+        font-size: small !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    p.site-title {
+        font-size: small !important;
+    }
+}
+
+header.header {
+    z-index: 1000;
+    position: fixed;
+    width: 100%; 
+    top: 0;
+    left: 0; 
+    right: 0; 
+    transition: all 0.3s ease 0s; 
+}
+
+header.header.scrolled {
+    top: -1.5rem;
+}
+
+

@@ -1,0 +1,219 @@
+.wp-block-cover__inner-container.is-layout-flow.wp-block-cover-is-layout-flow {
+    width: 70%;
+}
+
+h2.wp-block-heading.has-text-align-center {
+    margin-bottom: 3rem;
+}
+
+.wp-block-columns.is-layout-flex.wp-container-core-columns-is-layout-3.wp-block-columns-is-layout-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.rgpd legend.wpforms-field-label {
+    opacity: 0;
+    position: relative;
+}
+
+.wp-block-columns.are-vertically-aligned-center.is-layout-flex.wp-container-core-columns-is-layout-3.wp-block-columns-is-layout-flex {
+    margin-top: 4rem;
+}
+@media screen and (max-width: 780px) {
+    .wp-block-columns.are-vertically-aligned-center.is-layout-flex.wp-container-core-columns-is-layout-3.wp-block-columns-is-layout-flex {
+        margin-top: 0;
+    }
+}
+
+
+button#wpforms-submit-117 {
+    cursor: pointer;
+    box-sizing: border-box;
+    background: var(--primarybtnbg);
+    color: var(--primarybtncolor);
+    border-style: solid;
+    border-color: currentColor;
+    fill: currentColor;
+    border-width: var(--primarybtnborderwidth, 0);
+    border-radius: var(--primarybtnborderradius, 3px);
+    padding: var(--primarybtnpadding, 13px 15px);
+    font-weight: var(--btnfontweight, 700);
+    font-size: var(--btnfs, var(--bodyfontsize));
+    line-height: var(--btnlineheight, 1.6);
+    letter-spacing: var(--btnletterspacing, var(--bodyletterspacing));
+    text-transform: var(--btntexttransform, none);
+    text-align: center;
+    font-family: var(--bodyfontfamily), var(--nv-fallback-ff);
+    box-shadow: var(--primarybtnshadow, none);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 950px) {
+    .wpforms-submit-container {
+        left: auto !important;
+    }
+}
+
+button#wpforms-submit-117:hover {
+    background: var(--primarybtnhoverbg);
+    color: var(--primarybtnhovercolor);
+    border-color: var(--primarybtnhovercolor);
+}
+
+.wpforms-submit-container {
+    display: flex;
+    justify-content: flex-end;
+    left: -3rem;
+    top: 2rem;
+}
+
+@media screen and (max-width: 950px) {
+    .wp-block-columns.is-layout-flex.wp-container-core-columns-is-layout-5.wp-block-columns-is-layout-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .wpforms-submit-container {
+        justify-content: center;
+        top: 1rem;
+    }
+    ul.wp-block-social-links.is-layout-flex.wp-block-social-links-is-layout-flex {
+        align-self: center;
+    }
+    .wp-block-column.is-vertically-aligned-center.is-layout-flow.wp-block-column-is-layout-flow 
+    .wp-block-column.is-vertically-aligned-center.is-layout-flow.wp-block-column-is-layout-flow 
+    {
+        text-align: center;
+    }
+}
+
+
+.wp-block-column.is-vertically-aligned-top.is-layout-flow.wp-block-column-is-layout-flow {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.wp-block-columns.is-layout-flex.wp-container-core-columns-is-layout-5.wp-block-columns-is-layout-flex{
+    border: #FFB6C1, solid;
+    padding: 1rem 5rem;
+    border-radius: 10px;
+    width: 55vw;
+}
+
+@media screen and (max-width: 950px) {
+    .wp-block-columns.is-layout-flex.wp-container-core-columns-is-layout-5.wp-block-columns-is-layout-flex {
+        width: 95vw !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wp-block-columns.is-layout-flex.wp-container-core-columns-is-layout-5.wp-block-columns-is-layout-flex {
+        padding: 1rem;
+    }
+}
+
+.wp-block-cover__inner-container.is-layout-flow.wp-block-cover-is-layout-flow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#wpforms-117-field_9-container {
+    width: 190% !important;
+}
+
+@media screen and (max-width: 950px) {
+    div#wpforms-117-field_9-container {
+        width: 100% !important;
+    }
+}
+
+.wp-block-column.is-vertically-aligned-center.is-layout-flow.wp-block-column-is-layout-flow {
+    color: #646464;
+}
+
+
+/* block contact image and coordinated on tablet */
+@media screen and (max-width: 950px) {
+
+    figure.wp-block-image.size-full.is-resized {
+        width: 30vw;
+    }
+
+    .wp-block-column.is-layout-flow.wp-block-column-is-layout-flow 
+    .wp-block-columns.is-layout-flex.wp-container-core-columns-is-layout-4.wp-block-columns-is-layout-flex 
+    .wp-block-column.is-vertically-aligned-center.is-layout-flow.wp-block-column-is-layout-flow
+    .wp-block-columns.are-vertically-aligned-center.coordinateBlock.is-layout-flex.wp-container-core-columns-is-layout-3.wp-block-columns-is-layout-flex
+    {
+        display: flex;
+        flex-direction: row !important;  
+    }
+
+    .wp-block-column.is-vertically-aligned-center.is-layout-flow.wp-block-column-is-layout-flow 
+    .wp-block-column.is-vertically-aligned-center.is-layout-flow.wp-block-column-is-layout-flow 
+    {
+        display: flex;
+        flex-direction: column !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wp-block-column p {
+        font-size: 14px; 
+        margin-bottom: 10px; 
+    }
+
+    .wp-block-column svg {
+        width: 20px;
+        height: 20px; 
+        margin-right: 5px; 
+        vertical-align: middle; 
+    }
+
+    .wp-block-social-links svg {
+        width: 20px; 
+        height: 20px; 
+        margin-right: 5px; 
+        vertical-align: middle; 
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    li.choice-1.depth-1 {
+        margin-bottom: 1rem !important;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .map {
+        display: none !important; 
+    }
+} 
+
+@media screen and (max-width: 600px) {
+    .wp-block-columns.is-layout-flex.wp-container-core-columns-is-layout-4.wp-block-columns-is-layout-flex 
+    .wp-block-column.is-vertically-aligned-center.is-layout-flow.wp-block-column-is-layout-flow 
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wp-block-column.is-layout-flow.wp-block-column-is-layout-flow 
+    .wp-block-column.is-layout-flow.wp-block-column-is-layout-flow 
+    .wp-block-column.is-layout-flow.wp-block-column-is-layout-flow 
+    {
+        width: 60vh;
+    }
+    .wp-block-columns.are-vertically-aligned-center.coordinateBlock.is-layout-flex.wp-container-core-columns-is-layout-3.wp-block-columns-is-layout-flex {
+        width: 60vw;
+    }
+}
+
+.color strong{
+    color: #D63637;
+}
+

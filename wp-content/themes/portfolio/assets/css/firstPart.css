@@ -1,0 +1,106 @@
+.typewriter, 
+.typewriter-delayed 
+{
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    position: relative;
+    border-right: 2px solid black; 
+    width: 0;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 17ch; }
+}
+
+@keyframes typing-delayed {
+  from { width: 0; }
+  to { width: 10ch; } 
+}
+
+@keyframes disappear {
+  from { border-right-color: black; }
+  to { border-right-color: transparent; }
+}
+
+/* Appliquer l'animation pour .typewriter */
+.typewriter {
+  animation: typing 2.5s steps(20, end) forwards, disappear 0.5s linear 2.8s forwards; /* Animation pour écrire progressivement et disparaitre la barre */
+}
+
+/* Appliquer l'animation pour .typewriter-delayed avec un délai */
+.typewriter-delayed {
+  opacity: 0; /* Caché initialement */
+  animation: typing-delayed 2s steps(20, end) forwards, disappear 4s linear 5s forwards, appear 0s linear 3s forwards; /* Animation pour écrire progressivement, disparaitre la barre, et apparaitre */
+  animation-delay: 2.5s; /* Délai égal à la durée de l'animation de .typewriter */
+}
+
+@keyframes appear {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.wp-block-buttons.is-content-justification-center.is-layout-flex.wp-container-core-buttons-is-layout-2.wp-block-buttons-is-layout-flex {
+  margin-bottom: 5rem;
+}
+
+
+a.wp-block-button__link.wp-element-button {
+    margin-top: 5rem;
+}
+@media screen and (max-width: 600px) {
+  a.wp-block-button__link.wp-element-button {
+    margin-top: 5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wp-block-column.is-layout-flow.wp-block-column-is-layout-flow 
+  h2.wp-block-heading.has-text-align-center.typewriter.has-nv-light-bg-color.has-text-color.has-link-color.wp-elements-35abbf3833858ffa1686855074b74558
+  {
+    margin-bottom: 0;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .wp-block-cover.alignfull.has-small-font-size.wp-duotone-unset-1,
+  img.wp-block-cover__image-background.wp-image-41,
+  span.wp-block-cover__background.has-nv-light-bg-background-color.has-background-dim-30.has-background-dim 
+  {
+      min-height: 100vh !important;
+  }
+}
+
+
+.scroll-down-arrow {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: arrowBlink 2s infinite;
+}
+
+.scroll-down-arrow span {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 20px solid #fff;
+}
+
+@keyframes arrowBlink {
+  0%, 100% {
+      opacity: 1;
+  }
+  50% {
+      opacity: 0;
+  }
+}
