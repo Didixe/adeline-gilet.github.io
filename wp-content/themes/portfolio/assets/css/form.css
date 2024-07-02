@@ -26,7 +26,7 @@ h2.wp-block-heading.has-text-align-center {
 }
 
 
-button#wpforms-submit-117 {
+button#wpforms-submit-297 {
     cursor: pointer;
     box-sizing: border-box;
     background: var(--primarybtnbg);
@@ -56,7 +56,7 @@ button#wpforms-submit-117 {
     }
 }
 
-button#wpforms-submit-117:hover {
+button#wpforms-submit-297:hover {
     background: var(--primarybtnhoverbg);
     color: var(--primarybtnhovercolor);
     border-color: var(--primarybtnhovercolor);
@@ -119,12 +119,12 @@ button#wpforms-submit-117:hover {
     align-items: center;
 }
 
-div#wpforms-117-field_9-container {
+div#wpforms-297-field_6-container {
     width: 190% !important;
 }
 
 @media screen and (max-width: 950px) {
-    div#wpforms-117-field_9-container {
+    div#wpforms-297-field_6-container {
         width: 100% !important;
     }
 }

@@ -38,12 +38,12 @@ img.wp-image-34.swirl-in-animation {
 
 @media screen and (max-width: 600px) {
     .qui-suis-je {
-        font-size: 1.8rem; 
+        font-size: 2.2rem; 
         margin-bottom: 1rem;
     }
     h2#presentation {
         font-size: 1.5rem !important; 
-        margin-top: 68px;
+        margin-top: 73px;
         left: 6vw;
         margin-bottom: 1rem;
     }

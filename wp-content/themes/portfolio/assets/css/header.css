@@ -33,7 +33,5 @@ header.header {
 }
 
 header.header.scrolled {
-    top: -1.5rem;
+    top: -1rem;
 }
-
-

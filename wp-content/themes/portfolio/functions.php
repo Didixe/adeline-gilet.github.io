@@ -12,12 +12,14 @@ function theme_enqueue_styles()
     wp_enqueue_style('footer-style', get_stylesheet_directory_uri() . '/assets/css/footer.css', array(), filemtime(get_stylesheet_directory() . '/assets/css/footer.css'));
     wp_enqueue_style('form-style', get_stylesheet_directory_uri() . '/assets/css/form.css', array(), filemtime(get_stylesheet_directory() . '/assets/css/form.css'));
     wp_enqueue_style('projects-style', get_stylesheet_directory_uri() . '/assets/css/projects.css', array(), filemtime(get_stylesheet_directory() . '/assets/css/projects.css'));
+    wp_enqueue_style('popUp-style', get_stylesheet_directory_uri() . '/assets/css/popUp.css.css', array(), filemtime(get_stylesheet_directory() . '/assets/css/popUp.css.css'));
 
     wp_enqueue_script('header-script', get_stylesheet_directory_uri() . '/assets/js/header.js', array('jquery'), filemtime(get_stylesheet_directory() . '/assets/js/header.js'), true);
     wp_enqueue_script('animationText-script', get_stylesheet_directory_uri() . '/assets/js/animationText.js', array('jquery'), filemtime(get_stylesheet_directory() . '/assets/js/animationText.js'), true);
     wp_enqueue_script('carrouselAnimation-script', get_stylesheet_directory_uri() . '/assets/js/carrouselAnimation.js', array('jquery'), filemtime(get_stylesheet_directory() . '/assets/js/carrouselAnimation.js'), true);
     wp_enqueue_script('parallax-script', get_stylesheet_directory_uri() . '/assets/js/parallax.js', array('jquery'), filemtime(get_stylesheet_directory() . '/assets/js/parallax.js'), true);
     wp_enqueue_script('pictureAnimation-script', get_stylesheet_directory_uri() . '/assets/js/pictureAnimation.js', array('jquery'), filemtime(get_stylesheet_directory() . '/assets/js/pictureAnimation.js'), true);
-
+    wp_enqueue_script('hoverCarrousel-script', get_stylesheet_directory_uri() . '/assets/js/hoverCarrousel.js', array('jquery'), filemtime(get_stylesheet_directory() . '/assets/js/hoverCarrousel.js'), true);
+    wp_enqueue_script('secureForm-script', get_stylesheet_directory_uri() . '/assets/js/secureForm.js', array('jquery'), filemtime(get_stylesheet_directory() . '/assets/js/secureForm.js'), true);
 }
 
